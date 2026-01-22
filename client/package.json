@@ -1,0 +1,25 @@
+{
+  "name": "borsh-demo-client",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "tsx src/index.ts",
+    "example": "tsx src/examples.ts",
+    "devnet": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.93.5",
+    "bn.js": "^5.2.2",
+    "bs58": "^5.0.0",
+    "borsh": "^0.7.0",
+    "buffer": "^6.0.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "@types/bs58": "^4.0.1",
+    "tsx": "^4.19.1",
+    "typescript": "^5.5.4"
+  }
+}
